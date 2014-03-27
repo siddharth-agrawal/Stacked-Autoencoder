@@ -503,8 +503,8 @@ def executeStackedAutoencoder():
     
     """ Load MNIST images for training and testing """
     
-    train_data    = loadMNISTImages('./train-images-idx3-ubyte')
-    train_labels  = loadMNISTLabels('./train-labels-idx1-ubyte')
+    train_data    = loadMNISTImages('train-images-idx3-ubyte')
+    train_labels  = loadMNISTLabels('train-labels-idx1-ubyte')
     
     """ Initialize the first Autoencoder with the above parameters """
     
