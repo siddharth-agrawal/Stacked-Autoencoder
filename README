@@ -1,0 +1,15 @@
+-> This is a solution to the Stacked Autoencoder exercise in the Stanford UFLDL Tutorial(http://ufldl.stanford.edu/wiki/index.php/Exercise:_Implement_deep_networks_for_digit_classification)
+-> The code has been written in Python using Scipy and Numpy
+-> The code is bound by The MIT License (MIT)
+
+Running the code:
+
+-> Download the gunzip data files and the code file 'stackedAutoencoder.py'
+-> Put them in the same folder, extract the gunzips and run the program by typing in 'python stackedAutoencoder.py' in the command line
+-> You should get two text outputs as follows
+-> The first one should say 'Accuracy after greedy training : 0.87', which signifies an accuracy of 87%
+-> The second one should say 'Accuracy after finetuning : 0.97', which signifies an accuracy of 97%
+-> The code takes about 150 minutes to execute on an i3 processor
+
+Code written by: Siddharth Agrawal
+Email ID: siddharth.950@gmail.com
